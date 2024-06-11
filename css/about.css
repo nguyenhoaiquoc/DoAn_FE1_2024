@@ -1,0 +1,564 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+/* Menu */
+.nav-item {
+    padding: 25px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+/* Hover chuột */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 15px 70px;
+    list-style: none;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 1px rgb(218, 195, 195);
+    left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .chu {
+    padding: 3px 0px;
+    color: rgb(110, 102, 102);
+    font-size: 15px;
+    position: relative;
+    right: 35px;
+}
+
+.dropdown-content.clickChuot {
+    margin-top: 20px;
+}
+
+/* Hover */
+.nav-link.reChuot {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+.nav-link.reChuot::after {
+    content: "";
+    height: 2px;
+    width: 0px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.aboutOne.nav-link.reChuot::after {
+    content: "";
+    height: 2px;
+    width: 0px;
+    background: #6b56e2;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link.reChuot:hover::after {
+    width: 75%;
+}
+
+/* Logo */
+.nav-link.logo1 {
+    position: absolute;
+    left: -45px;
+    top: 25px;
+}
+
+/* 2 icon */
+.bi.bi-list {
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.bi.bi-search {
+    position: absolute;
+    right: 10px;
+    top: 47px;
+}
+
+/* Banner */
+.banner {
+    background-image: url(../images_about/page-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+}
+
+.bannerCon {
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.text3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.text3 a:hover {
+    color: #6b56e2;
+}
+
+/* Main content */
+.anh2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images_home/about-image.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center;
+    margin-left: 12px;
+}
+
+.textChinh {
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.text2::after {
+    content: "";
+    width: 155px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.text4 {
+    font-size: 15px;
+    color: #8a8a8a;
+}
+
+.btn-add {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 18px 50px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.btn-add:hover {
+    background: #6b56e2;
+}
+
+/* Main content 2 */
+.nen {
+    background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(245, 241, 241, 0.5));
+    padding: 80px;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.text14 {
+    font-size: 50px;
+}
+
+.text15 {
+    font-size: 20px;
+}
+
+/* Main content 3 */
+.anh1 {
+    width: 80%;
+    height: 80vh;
+    background-image: url(../images_home/creative-blue-about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+}
+
+.item10 {
+    padding: 100px;
+}
+
+.text39 {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+.text39::after {
+    content: "";
+    width: 120px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.text40 {
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-top: 50px;
+}
+
+.text41 {
+    margin-top: 50px;
+    color: #8a8a8a;
+    font-size: 15px;
+
+
+}
+
+.text41 li {
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+
+.btn-let {
+    display: inline-block;
+
+}
+
+.btn-let p {
+    color: black;
+    font-weight: bold;
+    border: 1px solid #8a8a8a;
+    padding: 15px 40px;
+    border-radius: 99px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Main content 5 */
+/* Content 1 */
+.cover1 {
+    background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(245, 241, 241, 0.5));
+    padding-bottom: 100px;
+}
+
+.textChinh3 {
+    text-align: center;
+    padding: 100px;
+}
+
+.text33 {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.text33::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 47%;
+}
+
+.text34 {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+/* Content 2 */
+.menu2 {
+    padding: 30 20px;
+    font-size: 20px;
+}
+
+.nav-item .text21 {
+    color: #6b56e2;
+}
+
+/* Content 3 */
+.image {
+    position: relative;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.text22 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(86, 59, 235, 0.8);
+    display: flex;
+    justify-content: center;
+    /* Canh giữa theo chiều ngang */
+    align-items: center;
+    /* Canh giữa theo chiều dọc */
+    opacity: 0;
+    /* Ẩn ban đầu */
+    transition: opacity 0.5s ease;
+    /* Hiệu ứng khi hover */
+}
+
+.text22:hover {
+    opacity: 1;
+}
+
+.text22 i {
+    margin: 0 5px;
+}
+
+.text22 i:first-child {
+    margin-left: 0;
+}
+
+.text22 i:last-child {
+    margin-right: 0;
+}
+
+.text22>* {
+    transform: translateY(25px);
+    transition: 0.6s;
+}
+
+.text22:hover>* {
+    transform: translateY(0px);
+}
+
+.text43 {
+    text-align: center;
+}
+
+.text43 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text43 a:hover {
+    color: #6b56e2;
+}
+
+/* Main content 6 */
+.mainContent6 {
+    text-align: center;
+
+}
+
+.mainContent6 i {
+    margin-top: 100px;
+    color: #6b56e2;
+    font-size: 50px;
+}
+
+.text42 p {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+/* Main  content 7 */
+.cover3 {
+    background-image: linear-gradient(90deg, #97a7fb, #eaaaf5);
+    position: relative;
+}
+
+.item8 {
+    color: white;
+    padding: 100px;
+    padding-left: 130px;
+}
+
+.text27 p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text27 p::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background: white;
+    top: 160px;
+    left: 142px;
+}
+
+.text28 p {
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.btn-add4 a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 20px 50px;
+    border-radius: 99px;
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+}
+
+.btn-add4 a:hover {
+    background: #6b56e2;
+}
+
+/* Footer */
+footer {
+    background: #262626;
+}
+
+.item9 {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Cột 1 */
+.text29 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text30 {
+    margin-top: 20px;
+    color: #8a8a8a;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.icon2 a {
+    padding-right: 20px;
+    color: white;
+}
+
+.icon2 {
+    margin-top: 30px;
+
+}
+
+/* Cột 2 */
+.icon3 {
+    color: #8a8a8a;
+}
+
+.text31 a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+.text31 a p {
+    margin-left: 35px;
+}
+
+.text31 a:hover {
+    color: white;
+}
+
+/* Cột 3 */
+.text32 a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+.text32 {
+    margin-bottom: 20px;
+}
+
+.text32 a:hover {
+    color: white;
+}
+
+.subscribe {
+    background: #262626;
+    border: 1px solid #8a8a8a;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    color: #988a8a;
+    box-sizing: border-box;
+}
+
+.btn-add5 {
+    border: none;
+    margin-top: 10px;
+    background-color: #6b56e2;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.btn-add5:hover {
+    background: #262626;
+}
+
+
+/* End */
+.end {
+
+    padding: 20px;
+    background: #232324;
+}
+
+.last p {
+    text-align: center;
+    color: #f1ffff;
+    font-size: 15px;
+    margin-top: 5px
+}
+
+/* Cuộn trang */
+.keep a {
+    color: white;
+    background: black;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: none;
+}

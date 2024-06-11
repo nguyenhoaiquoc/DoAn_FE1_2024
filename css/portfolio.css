@@ -1,0 +1,573 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+/* Menu */
+.nav-item {
+    padding: 25px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+/* Hover chuột */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 15px 70px;
+    list-style: none;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 1px rgb(218, 195, 195);
+    left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .chu {
+    padding: 3px 0px;
+    color: rgb(110, 102, 102);
+    font-size: 15px;
+    position: relative;
+    right: 35px;
+}
+
+.dropdown-content.clickChuot {
+    margin-top: 20px;
+}
+
+/* Hover */
+.nav-link.reChuot {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+.nav-link.reChuot::after {
+    content: "";
+    height: 2px;
+    width: 0px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.portfoliotOne.nav-link.reChuot::after {
+    content: "";
+    height: 2px;
+    width: 0px;
+    background: #6b56e2;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link.reChuot:hover::after {
+    width: 75%;
+}
+
+/* Logo */
+.nav-link.logo1 {
+    position: absolute;
+    left: -45px;
+    top: 25px;
+}
+
+/* 2 icon */
+.bi.bi-list {
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.bi.bi-search {
+    position: absolute;
+    right: 10px;
+    top: 47px;
+}
+
+/* Banner */
+.banner {
+    background-image:url(../images_about/page-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+}
+.bannerCon{
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.text1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+}
+.text3 a{
+    color: white;
+    text-decoration: none;
+}
+.text3 a:hover{
+    color: #6b56e2;
+}
+
+/* Main content 5 */
+/* Content 1 */
+.cover1 {
+    background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(245, 241, 241, 0.5));
+    padding-bottom: 80px;
+}
+
+
+/* Content 2 */
+.menu2 {
+    margin-top: 90px;
+    padding: 30 20px;
+    font-size: 20px;
+}
+
+.nav-item .text21 {
+    color: #6b56e2;
+}
+
+/* Content 3 */
+.image {
+    position: relative;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.text22 b {
+    position: absolute;
+    color: white;
+    bottom: 35px;
+    left: 30px;
+}
+
+.text22 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(86, 59, 235, 0.8);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.9s;
+}
+
+.text22:hover {
+    opacity: 1;
+}
+
+.text22>* {
+    transform: translateY(25px);
+    transition: 0.6s;
+}
+
+.text22:hover>* {
+    transform: translateY(0px);
+}
+
+.btn-add1 {
+    text-align: center;
+}
+
+.btn-add1 a {
+    display: inline-block;
+    border: 1px solid #c1bbbb;
+    padding: 20px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    border-radius: 99px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+    text-decoration: none;
+}
+
+.btn-add1 a:hover {
+    background: #6b56e2;
+    color: white;
+}
+
+/* Main content 6 */
+.mainContent6{
+    text-align: center;
+
+}
+.mainContent6 i{
+    margin-top: 100px;
+    color: #6b56e2;
+    font-size: 50px;
+}
+.text42 p{
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+/* Main content 8 */
+.main-content8 {
+    font-family: Playfair Display;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Content 1 */
+
+.textChinh3 {
+    text-align: center;
+}
+
+.text33 {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding-top: 90px;
+}
+
+.text33::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: -10px;
+    left: 13px;
+}
+
+.text34 {
+    font-size: 15px;
+    color: #8a8a8a;
+    margin-bottom: 55px;
+}
+
+/* Content 2 */
+.cover2 {
+    background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(245, 241, 241, 0.5));
+    position: relative;
+}
+
+.item6 {
+    position: relative;
+}
+
+.image3 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text24 {
+    text-decoration: none;
+}
+
+.text24 p {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.text24 p:hover {
+    color: #6b56e2;
+}
+
+.text25 {
+    color: #988a8a;
+    font-size: 14px;
+}
+
+.text25 p a {
+    text-decoration: none;
+    color: #988a8a
+}
+
+.text25 p a:hover {
+    color: #6b56e2;
+}
+
+.text26 p {
+    color: #988a8a;
+    font-size: 14px;
+}
+
+.btn-add3 .read {
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    padding: 17px 60px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.btn-add3 .read:hover {
+    background: #6b56e2;
+    color: white;
+}
+
+.text25 .chat {
+    color: #92b0c0;
+    margin-left: 170px;
+}
+
+.text25 .love {
+    color: #e53939;
+    margin-left: 10px;
+}
+
+.btn-share .share {
+    font-weight: bold;
+    color: white;
+    background: #ced0d7;
+    padding: 10px;
+    font-size: 13px;
+    position: absolute;
+    right: 0px;
+    bottom: 105px;
+}
+
+.icon {
+    position: absolute;
+    background: #4a4949;
+    padding: 7px 10px;
+    letter-spacing: 15px;
+    right: 0px;
+    bottom: 105px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s visibility 0.3s;
+}
+
+.btn-share .share:hover+.icon,
+.btn-share .icon:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon .facebook {
+    color: #ced0d7;
+}
+
+.icon .facebook:hover {
+    color: rgb(69, 69, 241);
+}
+
+.icon .twitter {
+    color: #ced0d7;
+}
+
+.icon .twitter:hover {
+    color: rgb(69, 69, 241);
+}
+
+.icon .linkedin {
+    color: #ced0d7;
+}
+
+.icon .linkedin:hover {
+    color: rgb(69, 69, 241);
+}
+
+.icon .pinterest {
+    color: #ced0d7;
+}
+
+.icon .pinterest:hover {
+    color: rgb(69, 69, 241);
+}
+/* Main  content 7 */
+.cover3 {
+    background-image: linear-gradient(90deg, #97a7fb, #eaaaf5);
+    position: relative;
+}
+
+.item8 {
+    color: white;
+    padding: 100px;
+    padding-left: 130px;
+}
+
+.text27 p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text27 p::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background: white;
+    top: 160px;
+    left: 142px;
+}
+
+.text28 p {
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.btn-add4 a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 20px 50px;
+    border-radius: 99px;
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+}
+
+.btn-add4 a:hover {
+    background: #6b56e2;
+}
+
+/* Footer */
+footer {
+    background: #262626;
+}
+
+.item9 {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Cột 1 */
+.text29 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text30 {
+    margin-top: 20px;
+    color: #8a8a8a;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.icon2 a {
+    padding-right: 20px;
+    color: white;
+}
+
+.icon2 {
+    margin-top: 30px;
+
+}
+
+/* Cột 2 */
+.icon3 {
+    color: #8a8a8a;
+}
+
+.text31 a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+.text31 a p {
+    margin-left: 35px;
+}
+
+.text31 a:hover {
+    color: white;
+}
+
+/* Cột 3 */
+.text32 a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+.text32 {
+    margin-bottom: 20px;
+}
+
+.text32 a:hover {
+    color: white;
+}
+
+.subscribe {
+    background: #262626;
+    border: 1px solid #8a8a8a;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    color: #988a8a;
+    box-sizing: border-box;
+}
+
+.btn-add5 {
+    border: none;
+    margin-top: 10px;
+    background-color: #6b56e2;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.btn-add5:hover {
+    background: #262626;
+}
+
+
+/* End */
+.end {
+
+    padding: 20px;
+    background: #232324;
+}
+
+.last p {
+    text-align: center;
+    color: #f1ffff;
+    font-size: 15px;
+    margin-top: 5px
+}
+
+/* Cuộn trang */
+.keep a {
+    color: white;
+    background: black;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: none;
+}
